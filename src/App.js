@@ -14,7 +14,7 @@ function App() {
         Random <a href="https://unsplash.com">Unsplash</a> Image
       </h1>
       <p className="text-center">
-        Reload or Click on Run to see a different image
+        Reload or Click on Run to see a different image actualizado para mac
       </p>
     </>
   );
