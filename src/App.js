@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+const unsplashimg = {
+  
+  src: "https://source.unsplash.com/800x600/?animal",
+  alt: "random unsplash image",
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container mx-20 my-10 flex justify-center">
+        <img className="" src={unsplashimg.src} alt={unsplashimg.alt} />
+      </div>
+      <h1 className="text-center">
+        Random <a href="https://unsplash.com">Unsplash</a> Image
+      </h1>
+      <p className="text-center">
+        Reload or Click on Run to see a different image
+      </p>
+    </>
   );
 }
 
